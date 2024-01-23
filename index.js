@@ -22,9 +22,9 @@ var config = {
     ping: [true, "@everyone"],
 
     embed: {
-        username: "Crow$tealer | Injection",
+        username: "Crow$tealer - Discord Injection 👀",
         footer: {
-            text: `@crow$tealer`,
+            text: `@Gothic$tealer 🏴‍☠️`,
         },
     },
 
